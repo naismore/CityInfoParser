@@ -10,7 +10,7 @@ def extract_data():
     url = "https://ru.wikipedia.org/wiki/Список_городов_России"
     try:
         response = requests.get(url, headers=headers)
-        soup = BeautifulSoup(response.text)
+        soup = BeautifulSoup(response.text, features="html.parser")
 
         table = soup.find('table')
 

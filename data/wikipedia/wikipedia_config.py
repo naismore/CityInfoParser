@@ -1,0 +1,1 @@
+wikipedia_url = 'https://ru.wikipedia.org/wiki/Список_городов_России'

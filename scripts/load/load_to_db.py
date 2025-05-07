@@ -2,7 +2,6 @@ import psycopg2
 from dotenv import load_dotenv
 
 def load_data(data):
-    print(data)
     load_dotenv()
     try:
         # Подключение к базе данных

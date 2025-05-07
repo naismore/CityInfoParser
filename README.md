@@ -182,6 +182,7 @@ WHERE city.name = 'Москва'
 - **rarfile**
 - **requests**
 - **pandas**
+- **openpyxl**
 
 ```
 pip install psycopg2
@@ -189,5 +190,6 @@ pip install beautifulSoup4
 pip install rarfile
 pip install requests
 pip install pandas
+pip install openpyxl
 ```
 
